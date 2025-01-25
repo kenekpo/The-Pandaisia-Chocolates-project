@@ -41,20 +41,21 @@ body > header > img {
 nav.horizontalNavigation li {
    display: block;
    float: left;
-  } 
-  nav.horizontalNavigation a {
+  }
+nav.horizontalNavigation a {
    display: block;
    text-align: center;
   }
-
 
 
 /* Left Column Styles */
 section#leftColumn {
    clear: left;
    float: left;
+   padding: 1.5em; 
    width: 33%;
   }
+
 
 
 
@@ -64,10 +65,11 @@ section#rightColumn {
    float: left;
    width: 67%;
   }
+
 section#rightColumn img {
    display: block;
    width: 100%;
-  } 
+  }
   section#rightColumn > nav.horizontalNavigation li {
    width: 25%;
   }
@@ -94,4 +96,3 @@ footer {
    float: left;
    width: 34%;
   }
-
